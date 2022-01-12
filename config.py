@@ -100,7 +100,7 @@ groups = [
     Group("d"),
     Group("f"),
     Group("z"),
-    Group("x", spawn="st timer", matches=[Match(wm_class=["st-256color"])]),
+    Group("x", spawn="st timer", matches=[Match(wm_class=["st-timer"])]),
     Group("c", spawn="transmission-qt", matches=[Match(wm_class=["transmission-qt"])]),
     Group("v", spawn="thunderbird", matches=[Match(wm_class=["Thunderbird"])]),
 ]
